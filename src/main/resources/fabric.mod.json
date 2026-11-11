@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "myvisuals",
+  "version": "${version}",
+  "name": "My Visuals",
+  "description": "HUD, screen effects, custom title screen and settings GUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.myvisuals.VisualsClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "fabric-api": "*", "minecraft": "~1.21.4", "java": ">=21" }
+}
